@@ -1,0 +1,79 @@
+/* Body: font family và font size */
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #222;
+}
+
+/* Header: background gradient và padding */
+header {
+  background: linear-gradient(90deg, #76b852, #8DC26F);
+  padding: 15px;
+  color: white;
+}
+
+/* Nav: background color, text style */
+nav {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f7f7f7;
+}
+
+/* Main: background color và font size */
+main {
+  background-color: #fafafa;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Footer: background color và text style */
+footer {
+  background-color: #444;
+  color: #eee;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Li: width cố định khi dùng ở menu */
+li {
+  width: auto; /* nav đã xử lý */
+}
+
+/* H1: text alignment, font family, color */
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  margin-top: 10px;
+}
+
+/* P: line height */
+p {
+  line-height: 1.6;
+}
